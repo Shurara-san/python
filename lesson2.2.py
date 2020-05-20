@@ -6,13 +6,8 @@
 Для заполнения списка элементов необходимо использовать функцию input().
 
 """
-new_str = input("Введите первый элемент\n")
-first_list = [new_str]
-while new_str:
-    new_str = input("Введите следующий элемент\n")
-    first_list.extend(new_str)
-
-print("Список составлен")
+first_list = input("Введите данные через запятую\n")
+first_list = first_list.split(',')
 i = 0
 if len(first_list) % 2:
     while i <= len(first_list) - 3:
