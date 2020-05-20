@@ -34,4 +34,6 @@ for i in my_structure:
     result.get("количество").add(i[1].get("количество"))
     result.get("единица измерения").add(i[1].get("единица измерения"))
     #print(i[1])
+
+print(my_structure)
 print(result)
