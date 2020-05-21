@@ -10,3 +10,13 @@
 оператора **, предусматривающая использование цикла.
 
 """
+
+
+def my_func(x, y):
+    i = 0
+    result = 1
+    while i < -y:
+        result *= 1 / x
+        i += 1
+    return result
+
