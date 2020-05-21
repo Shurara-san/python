@@ -9,4 +9,5 @@ email, телефон. Функция должна принимать парам
 
 
 def user_profile(name, surname, b_year, city, email, phone):
-    print(name, surname, b_year, city, email, phone)
+    print(f"name: {name}, surname: {surname}, b_year: {b_year}, "
+          f"city: {city}, email: {email}, phone: {phone}")
